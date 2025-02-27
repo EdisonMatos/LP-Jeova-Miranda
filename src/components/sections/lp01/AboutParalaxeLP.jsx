@@ -57,7 +57,7 @@ export default function AboutParalaxeLP({ logo }) {
                       <Button
                         aria-label={contentLp01.hero.textArea.ctaButtonAriaLabel}
                         label={contentLp01.about.buttonLabel}
-                        buttonLink={contentLp01.links.ctaWhatsapp}
+                        buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`}
                         animation
                         className=""
                         icon={
