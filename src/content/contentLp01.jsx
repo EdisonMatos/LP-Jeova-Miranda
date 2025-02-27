@@ -148,7 +148,7 @@ const contentLp01 = {
     },
     sectionHeader: {
       miniTag: "EXCELÊNCIA NA DEFESA DE PASSAGEIROS AÉREOS",
-      title: "Indenização garantida com dedicação e eficiência",
+      title: "Indenização com compromisso e eficiência",
     },
     paragraph: (
       <p>
