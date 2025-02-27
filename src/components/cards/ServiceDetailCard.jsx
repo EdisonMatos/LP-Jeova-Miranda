@@ -19,7 +19,7 @@ export default function ServiceDetailCard(props) {
           style={{
             backgroundImage: `url(${img})`,
           }}
-          className={`w-[100%] h-[250px] phone2:h-[300px] phone3:h-[400px] desktop1:h-[400px] desktop2:min-h-[500px] bg-no-repeat bg-cover ${bgPosition}`}
+          className={`w-[100%] h-[290px] phone2:h-[290px] phone3:h-[290px] tablet1:h-[395px] desktop1:h-[396px] desktop2:max-h-[500px] bg-no-repeat bg-cover ${bgPosition}`}
         />
       </div>
       <div className="flex flex-col gap-[32px]">

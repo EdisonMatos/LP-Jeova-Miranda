@@ -149,10 +149,10 @@ export default function FeaturesButton() {
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "400px" }}
+        style={{ width: "380px" }}
         breakpoints={{
-          "640px": "350px",
-          "425px": "290px",
+         
+          "639px": "290px",
         }}
         // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >
