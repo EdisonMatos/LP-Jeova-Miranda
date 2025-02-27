@@ -17,7 +17,7 @@ import SectionShapeDiv from "../sectionElements/SectionShapeDiv";
 import { MoveRight } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
 
 export default function About({ modal="true" }) {
   const [visible, setVisible] = useState(false);

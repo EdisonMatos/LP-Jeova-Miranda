@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
 
 export default function ListGroupSocial({ LightMode }) {
   const [scrolling, setScrolling] = useState(false);

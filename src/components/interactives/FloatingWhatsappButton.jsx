@@ -4,7 +4,8 @@ import Modal from "../util/Modal";
 import { Target } from "lucide-react";
 import content from "../../content/content";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}&text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
+
 
 const FloatingWhatsappButton = ({ buttonType }) => {
   const [isVisible, setIsVisible] = useState(false);
