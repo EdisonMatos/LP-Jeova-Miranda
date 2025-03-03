@@ -46,7 +46,7 @@ export default function Index() {
         x={false}
         obs={false}
       />
-      <FloatingWhatsappButton buttonType="form" />
+      <FloatingWhatsappButton />
       <BackToTopButton />
     </div>
   );
