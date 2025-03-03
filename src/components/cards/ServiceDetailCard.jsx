@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
 import Button from "../interactives/Button";
+import { useNavigate } from "react-router-dom";
+
 
 export default function ServiceDetailCard(props) {
+    const navigate = useNavigate();
+  
   const {
     img,
     subtitle,
@@ -9,6 +13,7 @@ export default function ServiceDetailCard(props) {
     buttonLabel,
     buttonIcon,
     buttonLink,
+    onClick,
     bgPosition,
   } = props;
 
@@ -33,7 +38,7 @@ export default function ServiceDetailCard(props) {
           <Button
             label={buttonLabel}
             icon={buttonIcon}
-            buttonLink={buttonLink}
+            onClick={() => navigate("/whatsapp")}
             animation={false}
           />
         </div>
