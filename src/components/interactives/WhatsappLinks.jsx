@@ -25,8 +25,9 @@ export default function WhatsAppLinks() {
               Preencha o Formulário:
             </h1>
           </MotionDivDownToUp>
-          <WhatsappForm/>
-
+          <MotionDivDownToUp>
+            <WhatsappForm/>
+          </MotionDivDownToUp>
           <footer className="">
             <MotionDivDownToUp>
               <button
