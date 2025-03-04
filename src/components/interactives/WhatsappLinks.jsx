@@ -5,13 +5,13 @@ import WhatsappForm from "./WhatsappForm";
 export default function WhatsAppLinks() {
   return (
     <div
-      className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-black bg-center bg-cover bg-opacity-70 desktop1:bg-fixed"
-      style={{
-        backgroundImage: `url(${contentLp01.cta.bgImg})`,
-        backgroundRepeat: "",
-      }}
+      className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-bgSectionDark bg-center bg-cover desktop1:bg-fixed"
+      // style={{
+      //   backgroundImage: `url(${contentLp01.cta.bgImg})`,
+      //   backgroundRepeat: "",
+      // }}
     >
-      <div className="flex items-center justify-center w-full h-screen bg-black bg-opacity-70">
+      <div className="flex items-center justify-center w-full h-screen">
         <div className="flex flex-col items-center p-4">
           <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
             <img
