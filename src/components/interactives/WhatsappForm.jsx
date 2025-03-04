@@ -46,7 +46,7 @@ const WhatsappForm = () => {
     if (!name) {
       validationErrors.name = "O campo Nome é obrigatório.";
     } else if (!validateName(name)) {
-      validationErrors.name = "Nome inválido.";
+      validationErrors.name = "Preencha o nome completo";
     }
   
     if (!phone) {
@@ -54,18 +54,6 @@ const WhatsappForm = () => {
     } else if (!validatePhone(phone)) {
       validationErrors.phone = "Número inválido.";
     }
-  
-    // if (!email) {
-    //   validationErrors.email = "O campo E-mail é obrigatório.";
-    // } else if (!validateEmail(email)) {
-    //   validationErrors.email = "E-mail inválido.";
-    // }
-  
-    // if (!uf) {
-    //   validationErrors.uf = "O campo Cidade e Estado é obrigatório.";
-    // } else if (!validateUf(uf)) {
-    //   validationErrors.uf = "Cidade e Estado inválido.";
-    // }
   
     if (!validateMessage(message)) {
       validationErrors.message = "O campo mensagem é obrigatório.";
@@ -80,9 +68,11 @@ const WhatsappForm = () => {
     // Aqui o número do WhatsApp precisa estar no formato correto
     const whatsappNumber = "5599984234461";  // Certifique-se de que este número está correto com o código do país
     const formattedPhone = phone.replace(/\D/g, "");  // Remover caracteres não numéricos
-    const whatsappMessage = encodeURIComponent(
-      `Olá! Meu nome é ${name}. Telefone: ${formattedPhone}. Mensagem: ${message}`
+    
+    const whatsappMessage =(
+      `Olá! Meu nome é ${name}.%0ATelefone: ${formattedPhone}.%0AMensagem: ${message}`
     );
+  
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
   
     // Abrir WhatsApp em uma nova aba
@@ -100,6 +90,7 @@ const WhatsappForm = () => {
     setMessage("");
     setIsSubmitting(false);
   };
+  
   
   
   
