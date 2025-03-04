@@ -11,7 +11,7 @@ export default function WhatsAppLinks() {
       //   backgroundRepeat: "",
       // }}
     >
-      <div className="flex items-center justify-center w-full h-screen">
+      <div className="flex items-center justify-center w-full">
         <div className="flex flex-col items-center p-4">
           <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
             <img
