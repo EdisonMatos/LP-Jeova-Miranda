@@ -14,7 +14,7 @@ import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { classNames } from "primereact/utils";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
 
 export default function FooterSocial({
   LightMode,

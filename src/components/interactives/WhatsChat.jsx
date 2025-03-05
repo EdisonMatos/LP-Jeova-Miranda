@@ -50,12 +50,12 @@ export default function WhatsChat() {
           initialMessageByClient={infos.whatsappDefaultMessage}
           statusMessage="Disponível"
           startChatText="Falar no whatsapp"
-          tooltipText={
-            <p ref={tooltipTextRef} className="_tooltip_181xn_903">
-              WhatsApp
-              <br />
-            </p>
-          }
+          // tooltipText={
+          //   <p ref={tooltipTextRef} className="_tooltip_181xn_903">
+          //     WhatsApp
+          //     <br />
+          //   </p>
+          // }
           allowEsc={true}
           onClose={handleCloseChat} // Aciona ao fechar o chat
         />

@@ -3,10 +3,12 @@ import content from "../../content/content";
 import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
+import { useNavigate } from "react-router-dom";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
 
 export default function ListGroupSocial({ LightMode }) {
+  const navigate = useNavigate();
   const [scrolling, setScrolling] = useState(false);
   const [showSubMenu, setShowSubMenu] = useState(false);
 
@@ -195,7 +197,7 @@ export default function ListGroupSocial({ LightMode }) {
           <Button
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label="Contato"
-            buttonLink={whatsappContactLink}
+            onClick={() => navigate("/whatsapp")}
             className={`${scrolling ? "" : ""}`}
             textclassName="text-paragraph3"
             size="small"

@@ -72,7 +72,7 @@ export const infos = {
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através do site. Tive problemas com meu voo.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",

@@ -10,9 +10,9 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
 
-export default function FeaturesButton() {
+export default function BFeaturesButton() {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -149,14 +149,10 @@ export default function FeaturesButton() {
         header={modalTitle}
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "30vw" }}
+        style={{ width: "380px" }}
         breakpoints={{
-          "1440px": "25vw",
-          "1024px": "35vw",
-          "768px": "50vw",
-          "640px": "60vw",
-          "639px": "80vw",
-          "425px": "90vw",
+         
+          "639px": "290px",
         }}
         // breakpoints={{ "4000px": "35vw", "1024px": "60vw", "641px": "90vw" }} versão original
       >

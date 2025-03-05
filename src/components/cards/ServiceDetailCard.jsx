@@ -1,7 +1,11 @@
 /* eslint-disable react/prop-types */
 import Button from "../interactives/Button";
+import { useNavigate } from "react-router-dom";
+
 
 export default function ServiceDetailCard(props) {
+    const navigate = useNavigate();
+  
   const {
     img,
     subtitle,
@@ -9,6 +13,7 @@ export default function ServiceDetailCard(props) {
     buttonLabel,
     buttonIcon,
     buttonLink,
+    onClick,
     bgPosition,
   } = props;
 
@@ -19,7 +24,7 @@ export default function ServiceDetailCard(props) {
           style={{
             backgroundImage: `url(${img})`,
           }}
-          className={`w-[100%] h-[250px] phone2:h-[300px] phone3:h-[400px] desktop1:h-[400px] desktop2:min-h-[500px] bg-no-repeat bg-cover ${bgPosition}`}
+          className={`w-[100%] h-[290px] phone2:h-[290px] phone3:h-[290px] tablet1:h-[395px] desktop1:h-[396px] desktop2:max-h-[500px] bg-no-repeat bg-cover ${bgPosition}`}
         />
       </div>
       <div className="flex flex-col gap-[32px]">
@@ -33,7 +38,7 @@ export default function ServiceDetailCard(props) {
           <Button
             label={buttonLabel}
             icon={buttonIcon}
-            buttonLink={buttonLink}
+            onClick={() => navigate("/whatsapp")}
             animation={false}
           />
         </div>

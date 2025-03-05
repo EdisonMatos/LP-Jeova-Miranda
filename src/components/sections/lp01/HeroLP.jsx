@@ -46,7 +46,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`}
                             animation
                             className="w-[100%]"
                             icon={
@@ -116,7 +116,7 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={contentLp01.links.ctaWhatsapp}
+                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`}
                             animation
                             className="w-[100%]"
                             icon={

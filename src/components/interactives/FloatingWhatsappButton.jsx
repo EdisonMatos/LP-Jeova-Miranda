@@ -3,10 +3,14 @@ import whatsappWebm from "../../assets/importAssets/whatsappGif.webp";
 import Modal from "../util/Modal";
 import { Target } from "lucide-react";
 import content from "../../content/content";
+import { useNavigate } from "react-router-dom";
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+
+const whatsappContactLink = "https://typebot.co/bpc-loas-n97cfro";
+
 
 const FloatingWhatsappButton = ({ buttonType }) => {
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
   const [openModal, setOpenModal] = useState(false);
 
@@ -29,7 +33,7 @@ const FloatingWhatsappButton = ({ buttonType }) => {
     if (buttonType === "form") {
       setOpenModal(!openModal);
     } else {
-      window.open(whatsappContactLink, "_blank");
+      navigate("/whatsapp");
     }
   };
 

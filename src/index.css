@@ -187,7 +187,7 @@
   align-items: center !important; /* Alinha os itens no centro verticalmente */
   justify-content: flex-start !important; /* Alinha os itens no início horizontalmente */
   gap: 10px !important; /* Espaçamento horizontal entre os itens */
-  position: fixed !important;
+  /* position: fixed !important; */
   bottom: 80px !important; /* Ajuste conforme necessário */
   right: 20px !important;
 }
