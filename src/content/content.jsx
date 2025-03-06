@@ -1,10 +1,10 @@
-import logo from "../assets/imgs/logo/logo.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import logo from "../assets/imgs/logo/logo.webp";
+import heroImg from "../assets/imgs/hero/lawHero.webp";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
-import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
 import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
@@ -18,9 +18,9 @@ import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
 import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
 import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from "../assets/imgs/features/featuresImg2.jpeg";
-import featuresImg2 from "../assets/imgs/features/featuresImg1.jpeg";
-import featuresImg3 from "../assets/imgs/features/featuresImg3.jpeg";
+import featuresImg1 from "../assets/imgs/features/featuresImg2.webp";
+import featuresImg2 from "../assets/imgs/features/featuresImg1.webp";
+import featuresImg3 from "../assets/imgs/features/featuresImg3.webp";
 import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
@@ -232,7 +232,8 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Consultoria Jurídica",
-        subtitle: "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
+        subtitle:
+          "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais...",
         description: (
           <div>
             Oferecemos orientação especializada para pessoas físicas e empresas,

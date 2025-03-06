@@ -13,7 +13,7 @@ export default function HeroLP({ fullImg }) {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${contentLp01.hero.bgImg})`,
         }}
       >
-        <MotionDivDownToUp className="flex justify-start desktop1:justify-start z-10">
+        <MotionDivDownToUp className="z-10 flex justify-start desktop1:justify-start">
           <img
             src={contentLp01.hero.logo.logoImg}
             alt={contentLp01.hero.logo.alt}
@@ -46,7 +46,9 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`}
+                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent(
+                              "Olá! Vim através do site. Tive problemas com meu voo."
+                            )}`}
                             animation
                             className="w-[100%]"
                             icon={
@@ -82,7 +84,7 @@ export default function HeroLP({ fullImg }) {
       >
         <SectionArea
           paddingTopAndBottom={false}
-          className="bg-black h-full bg-opacity-70"
+          className="h-full bg-black bg-opacity-60"
         >
           <SectionWrapper className="">
             <div className="flex w-full">
@@ -116,7 +118,9 @@ export default function HeroLP({ fullImg }) {
                               contentLp01.hero.textArea.ctaButtonAriaLabel
                             }
                             label={contentLp01.hero.textArea.buttonLabel}
-                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent("Olá! Vim através do site. Tive problemas com meu voo.")}`}
+                            buttonLink={`https://wa.me/5511999999999?text=${encodeURIComponent(
+                              "Olá! Vim através do site. Tive problemas com meu voo."
+                            )}`}
                             animation
                             className="w-[100%]"
                             icon={
@@ -146,7 +150,7 @@ export default function HeroLP({ fullImg }) {
   ) : (
     <div className="">
       <div
-        className="bg-top font-mainFont bg-cover bg-no-repeat"
+        className="bg-top bg-no-repeat bg-cover font-mainFont"
         style={{
           backgroundImage: `url(${contentLp01.hero.bgImg})`,
           backgroundPosition: "top",
